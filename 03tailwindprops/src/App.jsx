@@ -5,17 +5,17 @@ import './App.css'
 import Card from './components/Card'
 function App() {
   const [count, setCount] = useState(0)
-  let myObj={
-    username: "Sourav",
-    age:25
-  }
+ 
 
   return (
     <>
-    <div className='flex'>
-      <h1 className='bg-color: bg-red-600 text-white p-10 rounded-2xl mr-4'>Tailwind CSS</h1>
-     <div className='mr-4'><Card username="Sourav" btnText="click me" /></div>
-      <Card username="Ram" btnText="Visit me" />
+    <div className='flex justify-evenly '>
+     <Card username="Scratch" price="9$" />
+      <Card username="Web development" price="9$" />
+      <Card username="Python" price="9$" />
+      <Card username="Mathematics" price="9$" />
+      
+      
       
     </div>
     </>

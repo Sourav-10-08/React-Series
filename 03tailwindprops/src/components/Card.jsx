@@ -1,28 +1,33 @@
 import React from 'react'
 
-export default function Card({username, btnText}) {
+export default function Card({username, price}) {
 
 
   return (
-    <div className="max-w-xs p-6 rounded-md shadow-md bg-black ">
-    <img
-      src="https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg"
-      alt=""
-      className="object-cover object-center w-full rounded-md h-72 bg-gray-500"
-    />
-    <div className="mt-6 mb-2">
-      <span className="block text-sm font-medium font-mono tracking-widest uppercase text-indigo-400">
-        Title
-      </span>
-      <h2 className="text-xl font-semibold tracking-wide">{username}</h2>
+    <div class="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96 mr-2">
+    <div class="relative p-2.5 h-96 overflow-hidden rounded-xl bg-clip-border">
+      <img
+        src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
+        alt="card-image"
+        class="h-full w-full object-cover rounded-md"
+      />
     </div>
-    <p className="text-gray-300">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio tempora ipsum soluta
-      amet
-    </p>,<br />
-
-   <button>{btnText}</button> 
-
+    <div class="p-4">
+      <div class="mb-2 flex items-center justify-between">
+        <p class="text-slate-800 text-xl font-semibold">
+          {username}
+        </p>
+        <p class="text-cyan-600 text-xl font-semibold">
+          {price}
+        </p>
+      </div>
+      <p class="text-slate-600 leading-normal font-light">
+        Programming fundamentals loops functions
+      </p>
+      <button class="rounded-md w-full mt-6 bg-cyan-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-cyan-700 focus:shadow-none active:bg-cyan-700 hover:bg-cyan-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
+        Enroll Now
+      </button>
+    </div>
   </div>
   )
 }
