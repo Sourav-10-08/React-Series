@@ -8,7 +8,7 @@ function App() {
  
 
   return (
-    <>
+ 
     <div className='flex justify-evenly '>
      <Card username="Scratch" price="9$" />
       <Card username="Web development" price="9$" />
@@ -18,7 +18,7 @@ function App() {
       
       
     </div>
-    </>
+   
   )
 }
 

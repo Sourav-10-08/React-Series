@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState } from "react";
+
 
 
 function App() {
@@ -13,18 +14,43 @@ function App() {
           <button
           onClick={() => setColor("red")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-          style={{backgroundColor: "red"}}
+          style={{backgroundColor: "red", color:"white"}}
           >Red</button>
           <button
           onClick={() => setColor("green")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-          style={{backgroundColor: "green"}}
+          style={{backgroundColor: "green",  color:"white"}}
           >Green</button>
           <button
           onClick={() => setColor("blue")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-          style={{backgroundColor: "blue"}}
+          style={{backgroundColor: "blue",  color:"white"}}
           >Blue</button>
+           <button
+          onClick={() => setColor("violet")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "violet"}}
+          >Violet</button>
+           <button
+          onClick={() => setColor("orange")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "orange"}}
+          >Orange</button>
+           <button
+          onClick={() => setColor("pink")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "pink"}}
+          >Pink</button>
+           <button
+          onClick={() => setColor("black")}
+          className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
+          style={{backgroundColor: "black"}}
+          >Black</button>
+           <button
+          onClick={() => setColor("yellow")}
+          className="outline-none px-4 py-1 rounded-full text-blue shadow-lg"
+          style={{backgroundColor: "yellow", color:"white"}}
+          >Yellow</button>
         </div>
       </div>
     </div>
