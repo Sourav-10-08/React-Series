@@ -14,6 +14,7 @@ function App() {
       <Card username="Web development" price="9$" />
       <Card username="Python" price="9$" />
       <Card username="Mathematics" price="9$" />
+      <Card username="Generative AI" price="9$" />
       
       
       

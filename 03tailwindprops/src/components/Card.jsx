@@ -22,7 +22,7 @@ export default function Card({username, price}) {
         </p>
       </div>
       <p class="text-slate-600 leading-normal font-light">
-        Programming fundamentals loops functions
+        Programming fundamentals loops functions and conditionals
       </p>
       <button class="rounded-md w-full mt-6 bg-cyan-600 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-cyan-700 focus:shadow-none active:bg-cyan-700 hover:bg-cyan-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button">
         Enroll Now
