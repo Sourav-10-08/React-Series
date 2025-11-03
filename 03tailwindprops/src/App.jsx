@@ -10,11 +10,11 @@ function App() {
   return (
  
     <div className='flex justify-evenly '>
-     <Card username="Scratch" price="9$" />
-      <Card username="Web development" price="9$" />
-      <Card username="Python" price="9$" />
-      <Card username="Mathematics" price="9$" />
-      <Card username="Generative AI" price="9$" />
+      <Card username="Scratch" price="10$" />
+      <Card username="Web development" price="15$" />
+      <Card username="Python" price="12$" />
+      <Card username="Mathematics" price="15$" />
+      <Card username="Generative AI" price="12$" />
       
       
       
