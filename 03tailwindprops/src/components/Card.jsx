@@ -31,3 +31,10 @@ export default function Card({username, price}) {
   </div>
   )
 }
+// In tailwind css for image tag we use closing tag like this <img/>
+
+// In react we use className instead of class in tailwind
+
+// rfce is shortcut to create react functional component with export default
+// props are used to pass data from parent component to child component
+// props are read only cannot be modified 
